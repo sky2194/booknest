@@ -1,0 +1,22 @@
+booknest/
+├── backend/ (Spring Boot)
+│   └── booknest-api/
+├── frontend/ (Angular)
+│   └── booknest-ui/
+├── database/
+│   └── oracle-scripts/
+├── cicd/
+│   ├── jenkins/
+│   ├── lightspeed/
+│   └── harness/
+├── docker/
+│   ├── backend/
+│   └── frontend/
+├── manifests/
+│   ├── k8s/openshift/
+│   └── helm-charts/
+├── ansible/
+├── terraform/
+└── docs/
+    ├── README.md
+    └── architecture.png

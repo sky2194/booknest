@@ -1,0 +1,3 @@
+CREATE USER BOOKNEST IDENTIFIED BY Booknest123;
+GRANT CONNECT, RESOURCE TO BOOKNEST;
+-- You’ll use this user in Spring Boot `application.properties`
