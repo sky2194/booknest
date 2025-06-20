@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';    // ✅ Add this
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-book-list',
   standalone: true,
-  imports: [CommonModule],                         // ✅ Replace BrowserModule
+  imports: [CommonModule],
   templateUrl: './book-list.component.html',
   styleUrls: ['./book-list.component.css']
 })
 export class BookListComponent {
-  // your logic
+  // Your logic here
 }
