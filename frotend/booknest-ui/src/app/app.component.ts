@@ -1,7 +1,21 @@
 import { Component } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { BookAddComponent } from './components/book-add/book-add.component';
+import { BookListComponent } from './components/book-list/book-list.component';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    BookAddComponent,
+    BookListComponent
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
