@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -10,7 +10,7 @@ import { BookListComponent } from './components/book-list/book-list.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    BrowserModule,           // ✅ only here
+    CommonModule,             // ✅ changed
     FormsModule,
     HttpClientModule,
     BookAddComponent,
