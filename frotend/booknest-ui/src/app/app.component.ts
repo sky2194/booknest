@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+//import { HttpClientModule } from '@angular/common/http';
 
 import { BookAddComponent } from './components/book-add/book-add.component';
 import { BookListComponent } from './components/book-list/book-list.component';
@@ -12,7 +12,6 @@ import { BookListComponent } from './components/book-list/book-list.component';
   imports: [
     CommonModule,             // ✅ changed
     FormsModule,
-    HttpClientModule,
     BookAddComponent,
     BookListComponent
   ],
