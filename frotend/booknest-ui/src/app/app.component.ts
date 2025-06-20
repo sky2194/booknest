@@ -10,7 +10,7 @@ import { BookListComponent } from './components/book-list/book-list.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    BrowserModule,
+    BrowserModule,           // ✅ only here
     FormsModule,
     HttpClientModule,
     BookAddComponent,
