@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-
+import { CommonModule } from '@angular/common';
 import { BookAddComponent } from './components/book-add/book-add.component';
 import { BookListComponent } from './components/book-list/book-list.component';
 
@@ -10,9 +7,7 @@ import { BookListComponent } from './components/book-list/book-list.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule,
+    CommonModule,
     BookAddComponent,
     BookListComponent
   ],
